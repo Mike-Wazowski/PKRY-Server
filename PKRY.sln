@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKRYServer", "PKRYServer\PKRYServer.csproj", "{60B9B56D-A28E-48FC-9EE5-049B32F8E6A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKRY.Messages", "PKRY.Messages\PKRY.Messages.csproj", "{3D185C19-F121-48E6-8692-B4A687CDE8EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKRY.Server", "PKRY.Server\PKRY.Server.csproj", "{BCCB8D48-00C4-419B-A77B-3995A16E79A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKRY.Security", "PKRY.Security\PKRY.Security.csproj", "{EC98DB82-FCB4-46B9-8957-D2A73BA328A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKRY.Database", "PKRY.Database\PKRY.Database.csproj", "{6F540C6A-F4D9-4006-BB4B-64FB773CAE0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60B9B56D-A28E-48FC-9EE5-049B32F8E6A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B9B56D-A28E-48FC-9EE5-049B32F8E6A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B9B56D-A28E-48FC-9EE5-049B32F8E6A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B9B56D-A28E-48FC-9EE5-049B32F8E6A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D185C19-F121-48E6-8692-B4A687CDE8EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D185C19-F121-48E6-8692-B4A687CDE8EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D185C19-F121-48E6-8692-B4A687CDE8EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D185C19-F121-48E6-8692-B4A687CDE8EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCCB8D48-00C4-419B-A77B-3995A16E79A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCCB8D48-00C4-419B-A77B-3995A16E79A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCCB8D48-00C4-419B-A77B-3995A16E79A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCCB8D48-00C4-419B-A77B-3995A16E79A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC98DB82-FCB4-46B9-8957-D2A73BA328A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC98DB82-FCB4-46B9-8957-D2A73BA328A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC98DB82-FCB4-46B9-8957-D2A73BA328A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC98DB82-FCB4-46B9-8957-D2A73BA328A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F540C6A-F4D9-4006-BB4B-64FB773CAE0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F540C6A-F4D9-4006-BB4B-64FB773CAE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F540C6A-F4D9-4006-BB4B-64FB773CAE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F540C6A-F4D9-4006-BB4B-64FB773CAE0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
