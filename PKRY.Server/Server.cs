@@ -39,7 +39,10 @@ namespace PKRY.Server
             clientsGroups = new List<ClientsGroup>();
             context = new db_Entities();
             passwordManager = new PasswordManager();
+			//production
             //databaseCachedUsers = context.User.ToList();
+			
+			//dev
             databaseCachedUsers = new List<User> { new User { user_name = "J.Sobczynski", hash = "81202ff50604884098352312c8acae47b56ad0051a49a7a3887e7df7b4736ac5", salt = "XS4laZSRWRCltVQJ92Cf8qeh7SXuBXITZtj0neaTT+PR3yRyMVaaZDbyz/YJyDnF9MvmhOuptziPvvmHIOf6zA==" },
                 new User { user_name = "B.Ostrowski", hash = "928bbdc09ae572df2b63b84211283b5a54f1aa723b1efe804c81a3be79539bac", salt = "VF5r3I5B2tto8LypXl7/LzoTQZa9IRACCLfxlq6m0xWY1NlC0UXqAr9sjiH5VkscJt8glVOlz4y5T35dTW0O4g==" },
                 new User() {user_name = "R.Kowalski", hash = "84e8a9e5cbd1d77ef210e09aba9c678a4a8fc78ee6524881a974c588d29448fc", salt = "O81K98VFZvbbYhNEmx5e2ZBqVYt4S1URL+9SC+zkMGtB9eGXgQXcPgQL3P9IwPaItQUdfljWzx7DOnUZ31zKlA==" },
